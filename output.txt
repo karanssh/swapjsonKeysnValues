@@ -1,0 +1,1098 @@
+{
+    "custom_config": {
+        "about_text": "",
+        "comment": "",
+        "company_name": "",
+        "contact_email": "",
+        "contact_phone": "",
+        "exec_summary_only": true,
+        "group_id": "test",
+        "logo": "",
+        "preparer_name": "",
+        "publish_group": "1",
+        "report_id": "1626304184739",
+        "report_title": "",
+        "sections": {
+            "detailed reports capture client": true,
+            "detailed reports firewall": true,
+            "detailed reports wireless": true
+        },
+        "tenant_id": "test",
+        "tenant_serial": "0040103XXXXX",
+        "uname": "standalone"
+    },
+    "pages": {
+        "cover": {
+            "company name": "SonicWALL Inc.",
+            "dst": true,
+            "firmware version": "SonicOS Enhanced 6.5.4.8-86n",
+            "from": "Jul 03 2021 18:00:00",
+            "generated date": "Jul 15 2021 23:20:00 -0600",
+            "generated_ts": 1626304184739,
+            "prepared by": "SonicWALL Inc.",
+            "product name": "SonicWALL TZ 300",
+            "report period": "13 Day(s)",
+            "serial number": "18B169BF9760",
+            "timezone": "GMT+5",
+            "to": "Jul 15 2021 23:20:00"
+        },
+        "detailed reports capture client": {
+            "capture client devices": {
+                "agents by version": {
+                    "chart type": "Chart1",
+                    "data": [
+                        [
+                            "3.6.23.1415",
+                            "94%"
+                        ],
+                        [
+                            "3.1.5.394",
+                            "5%"
+                        ],
+                        [
+                            "3.11.29",
+                            "1%"
+                        ]
+                    ]
+                },
+                "applications by risk level": {
+                    "chart type": "Chart1",
+                    "data": [
+                        [
+                            "No Risk (1777)",
+                            "94%"
+                        ],
+                        [
+                            "Low (8)",
+                            "5%"
+                        ],
+                        [
+                            "Medium (4)",
+                            "1%"
+                        ]
+                    ]
+                }
+            },
+            "capture client threats": {
+                "capture atp history": {
+                    "chart type": "Chart1",
+                    "data": [
+                        [
+                            "Malicious",
+                            "431"
+                        ],
+                        [
+                            "Non-Malicious",
+                            "333"
+                        ],
+                        [
+                            "Undetermined",
+                            "268"
+                        ],
+                        [
+                            "Marked as Threats",
+                            "168"
+                        ],
+                        [
+                            "Marked as Benign",
+                            "128"
+                        ],
+                        [
+                            "Detected (Alert Only)",
+                            "68"
+                        ]
+                    ]
+                },
+                "mitigated threats": {
+                    "chart type": "table",
+                    "data": [
+                        [
+                            "msiexec.exe",
+                            "windows",
+                            "TNTONEAD alvisonetworks.com",
+                            "Malware"
+                        ],
+                        [
+                            "msiexec.exe",
+                            "windows",
+                            "TNTONEEXCH alvisonetworks.com",
+                            "Malware"
+                        ],
+                        [
+                            "msiexec.exe (CLI 79be)",
+                            "windows",
+                            "TNTONEEXCH alvisonetworks.com",
+                            "Malware"
+                        ],
+                        [
+                            "msiexec.exe (CLI d5a6)",
+                            "windows",
+                            "TNTONEEXCH alvisonetworks.com",
+                            "Malware"
+                        ],
+                        [
+                            "BiTool[1].dll",
+                            "windows",
+                            "TNTONEEXCH alvisonetworks.com",
+                            "PUA"
+                        ]
+                    ]
+                },
+                "threat mitigation history": {
+                    "chart type": "Chart3",
+                    "data": [
+                        [
+                            "6/1/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/2/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/3/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/4/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/5/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/6/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/7/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/8/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/10/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/11/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/12/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/13/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/14/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/15/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/16/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/17/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/18/2021",
+                            10000,
+                            8000,
+                            7200
+                        ],
+                        [
+                            "6/19/2021",
+                            12000,
+                            9300,
+                            8500
+                        ],
+                        [
+                            "6/20/2021",
+                            10000,
+                            8000,
+                            7200
+                        ]
+                    ]
+                },
+                "threats by analyst verdict": {
+                    "chart type": "Chart1",
+                    "data": [
+                        [
+                            "True Positive",
+                            "94%"
+                        ],
+                        [
+                            "False Positive",
+                            "6%"
+                        ],
+                        [
+                            "Suspicious",
+                            "0%"
+                        ],
+                        [
+                            "Unknown",
+                            "0%"
+                        ]
+                    ]
+                },
+                "threats by classification": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "Ransomware",
+                            "431"
+                        ],
+                        [
+                            "Malware",
+                            "333"
+                        ],
+                        [
+                            "Virus",
+                            "268"
+                        ],
+                        [
+                            "Benign",
+                            "213"
+                        ],
+                        [
+                            "PUA",
+                            "166"
+                        ]
+                    ]
+                },
+                "threats by mitigation status": {
+                    "chart type": "Chart1",
+                    "data": [
+                        [
+                            "Threats Mitigated",
+                            "94%"
+                        ],
+                        [
+                            "Threats not Mitigated",
+                            "6%"
+                        ],
+                        [
+                            "Threats Marked as Benign",
+                            "0%"
+                        ]
+                    ]
+                },
+                "threats by resolution status": {
+                    "chart type": "Chart1",
+                    "data": [
+                        [
+                            "Unresolved Threats",
+                            "63%"
+                        ],
+                        [
+                            "Resolved Threats",
+                            "37%"
+                        ]
+                    ]
+                },
+                "threats detected by capture atp": {
+                    "chart type": "table",
+                    "data": [
+                        [
+                            "3/16/2021 9:35:32 AM UTC",
+                            "windows",
+                            "BOOBOO-PC.complab.eng.sonicwall.com",
+                            "Not Malicious",
+                            "Detect"
+                        ],
+                        [
+                            "2/2/2021 11:35:32 AM UTC",
+                            "windows",
+                            "complab-wsus.complab.eng.sonicwall.com",
+                            "Not Malicious",
+                            "Detect"
+                        ],
+                        [
+                            "2/2/2021 11:39:33 AM UTC",
+                            "windows",
+                            "complab-PC.complab.eng.sonicwall.com",
+                            "Malicious File",
+                            "Detect"
+                        ],
+                        [
+                            "1/16/2021 19:32:32 AM UTC",
+                            "windows",
+                            "BOOBOO-PC.complab.eng.sonicwall.com",
+                            "Not Malicious",
+                            "Detect"
+                        ],
+                        [
+                            "9/21/2021 13:51:32 AM UTC",
+                            "windows",
+                            "BOOBOO-PC.complab.eng.sonicwall.com",
+                            "Not Malicious",
+                            "Detect"
+                        ]
+                    ]
+                }
+            },
+            "capture client web content filtering": {
+                "top blocked categories": {
+                    "chart type": "Chart4",
+                    "data": [
+                        [
+                            "Social Networking",
+                            "13%"
+                        ],
+                        [
+                            "Business \u0026 Economy",
+                            "10%"
+                        ],
+                        [
+                            "Education",
+                            "8%"
+                        ],
+                        [
+                            "Travel",
+                            "7%"
+                        ],
+                        [
+                            "Malware",
+                            "6%"
+                        ]
+                    ]
+                },
+                "top blocked domains": {
+                    "chart type": "Chart4",
+                    "data": [
+                        [
+                            "183.207.33.35",
+                            "13%"
+                        ],
+                        [
+                            "ping.urtban-vpn.com",
+                            "10%"
+                        ],
+                        [
+                            "inpagepush.com",
+                            "8%"
+                        ],
+                        [
+                            "browser.com",
+                            "7%"
+                        ],
+                        [
+                            "cnd.classicfirearms.com",
+                            "6%"
+                        ]
+                    ]
+                }
+            }
+        },
+        "detailed reports firewall": {
+            "firewall dashboards": {
+                "top applications by connection usage": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "SSL",
+                            "14932"
+                        ],
+                        [
+                            "General DNS",
+                            "12229"
+                        ],
+                        [
+                            "Google Chrome",
+                            "9234"
+                        ],
+                        [
+                            "General LDAP",
+                            "5789"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "4239"
+                        ],
+                        [
+                            "LDAPv3",
+                            "3310"
+                        ],
+                        [
+                            "Image",
+                            "2086"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "2010"
+                        ]
+                    ]
+                },
+                "top applications by data usage": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "SSL",
+                            "14932"
+                        ],
+                        [
+                            "General DNS",
+                            "12229"
+                        ],
+                        [
+                            "Google Chrome",
+                            "9234"
+                        ],
+                        [
+                            "General LDAP",
+                            "5789"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "4239"
+                        ],
+                        [
+                            "LDAPv3",
+                            "3310"
+                        ],
+                        [
+                            "Image",
+                            "2086"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "2010"
+                        ]
+                    ]
+                },
+                "top applications by threats blocked": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "SSL",
+                            "14932"
+                        ],
+                        [
+                            "General DNS",
+                            "12229"
+                        ],
+                        [
+                            "Google Chrome",
+                            "9234"
+                        ],
+                        [
+                            "General LDAP",
+                            "5789"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "4239"
+                        ],
+                        [
+                            "LDAPv3",
+                            "3310"
+                        ],
+                        [
+                            "Image",
+                            "2086"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "2010"
+                        ]
+                    ]
+                },
+                "top applications by total blocked": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "SSL",
+                            "14932"
+                        ],
+                        [
+                            "General DNS",
+                            "12229"
+                        ],
+                        [
+                            "Google Chrome",
+                            "9234"
+                        ],
+                        [
+                            "General LDAP",
+                            "5789"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "4239"
+                        ],
+                        [
+                            "LDAPv3",
+                            "3310"
+                        ],
+                        [
+                            "Image",
+                            "2086"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "2010"
+                        ]
+                    ]
+                }
+            },
+            "firewall details": {
+                "top applications by connection usage": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "SSL",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "General DNS",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Google Chrome",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "General LDAP",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "LDAPv3",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Image",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ]
+                    ]
+                },
+                "top applications by data usage": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "SSL",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "General DNS",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Google Chrome",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "General LDAP",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "LDAPv3",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Image",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ]
+                    ]
+                },
+                "top applications by total blocked": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "SSL",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "General DNS",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Google Chrome",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "General LDAP",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Encrypted Key Exchange",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "LDAPv3",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "Image",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ],
+                        [
+                            "DHCP Protocol",
+                            "14.93K",
+                            "59.59MB",
+                            "18",
+                            "0"
+                        ]
+                    ]
+                }
+            },
+            "firewall inventory": {
+                "inventory and status": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "NSv270_Azure",
+                            "00401038B7E7",
+                            "NSv270",
+                            "Yes",
+                            "Yes",
+                            "Aquired"
+                        ],
+                        [
+                            "NSv270_Azure",
+                            "00401038B7E7",
+                            "NSv270",
+                            "Yes",
+                            "Yes",
+                            "Aquired"
+                        ],
+                        [
+                            "NSv270_Azure",
+                            "00401038B7E7",
+                            "NSv270",
+                            "Yes",
+                            "Yes",
+                            "Aquired"
+                        ],
+                        [
+                            "NSv270_Azure",
+                            "00401038B7E7",
+                            "NSv270",
+                            "Yes",
+                            "Yes",
+                            "Aquired"
+                        ],
+                        [
+                            "NSv270_Azure",
+                            "00401038B7E7",
+                            "NSv270",
+                            "Yes",
+                            "Yes",
+                            "Aquired"
+                        ]
+                    ]
+                }
+            },
+            "firewall inventory \u0026 licenses": {
+                "expired services": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ]
+                    ]
+                },
+                "expiring services": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ],
+                        [
+                            "NSM Essential",
+                            "00401038B7E7",
+                            "11 July 2022"
+                        ]
+                    ]
+                }
+            },
+            "firewall session details": {
+                "total sessions over time": {
+                    "chart type": "Chart5",
+                    "data": [
+                        [
+                            "1626304184739",
+                            1300
+                        ],
+                        [
+                            "1626304184740",
+                            1400
+                        ],
+                        [
+                            "1626304184741",
+                            1100
+                        ],
+                        [
+                            "1626304184742",
+                            1500
+                        ],
+                        [
+                            "1626304184743",
+                            1200
+                        ],
+                        [
+                            "1626304184744",
+                            1350
+                        ],
+                        [
+                            "1626304184745",
+                            1600
+                        ],
+                        [
+                            "1626304184746",
+                            1550
+                        ]
+                    ]
+                }
+            }
+        },
+        "detailed reports wireless": {
+            "wireless inventory": {
+                "access point inventory": {
+                    "chart type": "Table",
+                    "data": [
+                        [
+                            "PM Demo 224w",
+                            "2c:b8:ed:09:f5:f4",
+                            "Sonicwave 224W",
+                            "US",
+                            "2025/01/31",
+                            "173.240.220.2"
+                        ],
+                        [
+                            "PM Demo 224w",
+                            "2c:b8:ed:09:f5:f4",
+                            "Sonicwave 224W",
+                            "US",
+                            "2025/01/31",
+                            "173.240.220.2"
+                        ],
+                        [
+                            "PM Demo 224w",
+                            "2c:b8:ed:09:f5:f4",
+                            "Sonicwave 224W",
+                            "US",
+                            "2025/01/31",
+                            "173.240.220.2"
+                        ],
+                        [
+                            "PM Demo 224w",
+                            "2c:b8:ed:09:f5:f4",
+                            "Sonicwave 224W",
+                            "US",
+                            "2025/01/31",
+                            "173.240.220.2"
+                        ],
+                        [
+                            "PM Demo 224w",
+                            "2c:b8:ed:09:f5:f4",
+                            "Sonicwave 224W",
+                            "US",
+                            "2025/01/31",
+                            "173.240.220.2"
+                        ]
+                    ]
+                }
+            },
+            "wireless security": {
+                "capture atp enabled ssid policies": {
+                    "chart type": "Chart6",
+                    "data": [
+                        [
+                            637166,
+                            22121
+                        ]
+                    ]
+                },
+                "clients with highest malicious files": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "None",
+                            0
+                        ],
+                        [
+                            "Zip",
+                            7
+                        ]
+                    ]
+                },
+                "clients with highest url visits": {
+                    "chart type": "Chart2",
+                    "data": [
+                        [
+                            "None",
+                            0
+                        ],
+                        [
+                            "Zip",
+                            7
+                        ]
+                    ]
+                },
+                "cloud anti-virus enabled ssid policies": {
+                    "chart type": "Chart6",
+                    "data": [
+                        [
+                            637166,
+                            22121
+                        ]
+                    ]
+                },
+                "content filtering cfs enabled ssid policies": {
+                    "chart type": "Chart6",
+                    "data": [
+                        [
+                            637166,
+                            22121
+                        ]
+                    ]
+                },
+                "geo-ip/botnet enabled ssid policies": {
+                    "chart type": "Chart6",
+                    "data": [
+                        [
+                            637166,
+                            22121
+                        ]
+                    ]
+                },
+                "top malicious file types": {
+                    "chart type": "Chart6",
+                    "data": [
+                        [
+                            637166,
+                            22121
+                        ]
+                    ]
+                },
+                "top unsafe url categories": {
+                    "chart type": "Chart6",
+                    "data": [
+                        [
+                            637166,
+                            22121
+                        ]
+                    ]
+                }
+            },
+            "wireless topology": {
+                "topology": {
+                    "chart type": "Chart7",
+                    "data": [
+                        [
+                            "1st Floor",
+                            [
+                                "PM Demo 224W",
+                                "PM Demo 231c 01",
+                                "PM Demo 231c 02"
+                            ]
+                        ],
+                        [
+                            "SonicWall Amsterdam",
+                            [
+                                "PM Demo 231AMS",
+                                "PM Demo 224AMS"
+                            ]
+                        ]
+                    ]
+                }
+            }
+        },
+        "summary": {
+            "capture client": {
+                "alerts": "0",
+                "blocked web domains": "2",
+                "commissioned endpoints": "0",
+                "company name": "SonicWALL Inc.",
+                "infected devices": "0",
+                "mitigated threats": "1500",
+                "vulnerable applications": "49"
+            },
+            "firewall": {
+                "company name": "SonicWALL Inc.",
+                "high risk applications": "2",
+                "know threats": "0",
+                "total applications": "49",
+                "total threats": "605410",
+                "vulnerability exploits": "0",
+                "zero day threats": "0"
+            },
+            "wireless": {
+                "average clients per ap": "0",
+                "blocked applications": "49",
+                "company name": "SonicWALL Inc.",
+                "guest portal users": "0",
+                "malicious files": "2",
+                "offline access points": "0",
+                "offline switches": "0"
+            }
+        }
+    }
+}

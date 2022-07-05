@@ -1,0 +1,24 @@
+{
+    "custom_config": {
+        "preparer_name": "",
+        "uname": "standalone",
+        "about_text": "",
+        "sections": {
+            "detailed_reports_capture_client": true,
+            "detailed_reports_firewall": true,
+            "detailed_reports_wireless": true
+        },
+        "contact_email": "",
+        "contact_phone": "",
+        "company_name": "",
+        "report_title": "",
+        "logo": "",
+        "comment": "",
+        "exec_summary_only": true,
+        "tenant_id": "test",
+        "tenant_serial": "0040103XXXXX",
+        "report_id": "1626304184739",
+        "group_id": "test",
+        "publish_group": "1"
+    }
+}
